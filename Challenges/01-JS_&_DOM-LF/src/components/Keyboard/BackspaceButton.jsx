@@ -3,9 +3,9 @@ import backspace_svg from "../../img/backspace.svg";
 
 function BackspaceButton() {
     return (
-        <div className="letter-button box">
-            <img src={backspace_svg} width="17px" style={{ margin: "auto" }} />
-        </div>
+        <button type="button" className="letter-button box">
+            <img className="backspace" src={backspace_svg} />
+        </button>
     );
 }
 

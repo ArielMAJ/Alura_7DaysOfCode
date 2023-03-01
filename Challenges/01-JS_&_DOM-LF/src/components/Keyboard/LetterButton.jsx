@@ -2,9 +2,9 @@ import React from "react";
 
 function LetterButton(props) {
     return (
-        <div className="letter-button box" style={props.style}>
+        <button type="button" className="letter-button box" style={props.style}>
             {props.letter_to_display}
-        </div>
+        </button>
     );
 }
 
