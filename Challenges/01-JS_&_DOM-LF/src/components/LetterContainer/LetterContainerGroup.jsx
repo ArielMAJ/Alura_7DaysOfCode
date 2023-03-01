@@ -3,7 +3,7 @@ import Row from "./Row";
 
 function LetterContainerGroup() {
     return (
-        <div class="letter-container">
+        <div className="letter-container">
             <Row />
             <Row />
             <Row />

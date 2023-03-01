@@ -5,7 +5,7 @@ import Row_03 from "./Row_03";
 
 function Keyboard() {
     return (
-        <div class="keyboard">
+        <div className="keyboard">
             <Row_01 />
             <Row_02 />
             <Row_03 />

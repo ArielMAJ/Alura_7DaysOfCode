@@ -3,7 +3,7 @@ import Logo from "./Logo";
 
 function TopBar() {
     return (
-        <div class="top-bar">
+        <div className="top-bar">
             <Logo />
         </div>
     );

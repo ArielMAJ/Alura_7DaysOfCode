@@ -5,7 +5,7 @@ import Keyboard from "./Keyboard/Keyboard";
 
 function App() {
     return (
-        <div class="first-page">
+        <div className="first-page">
             <TopBar />
             <LetterContainerGroup />
             <Keyboard />

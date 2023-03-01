@@ -3,7 +3,7 @@ import Box from "./Box";
 
 function Row() {
     return (
-        <div class="row">
+        <div className="row">
             <Box />
             <Box />
             <Box />

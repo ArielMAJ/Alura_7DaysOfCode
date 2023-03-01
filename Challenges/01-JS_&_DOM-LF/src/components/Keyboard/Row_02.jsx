@@ -3,7 +3,7 @@ import LetterButton from "./LetterButton";
 
 function Row_02() {
     return (
-        <div class="row">
+        <div className="row">
             <LetterButton letter_to_display="A" />
             <LetterButton letter_to_display="S" />
             <LetterButton letter_to_display="D" />

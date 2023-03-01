@@ -4,8 +4,8 @@ import BackspaceButton from "./BackspaceButton";
 
 function Row_03() {
     return (
-        <div class="row">
-            <LetterButton letter_to_display="Enter" style={{ width: "64px" }} />
+        <div className="row">
+            <LetterButton letter_to_display="Enter" />
             <LetterButton letter_to_display="Z" />
             <LetterButton letter_to_display="X" />
             <LetterButton letter_to_display="C" />
