@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/www.artadevs.tech/static/js/main.206677c2.js",
-    "static/media/backspace.svg": "/www.artadevs.tech/static/media/backspace.76bd3b90817c1b7431139a75e7a6cf43.svg",
-    "index.html": "/www.artadevs.tech/index.html",
-    "main.206677c2.js.map": "/www.artadevs.tech/static/js/main.206677c2.js.map"
+    "main.js": "/Alura_7DaysOfCode/static/js/main.f76c02d4.js",
+    "static/media/backspace.svg": "/Alura_7DaysOfCode/static/media/backspace.76bd3b90817c1b7431139a75e7a6cf43.svg",
+    "index.html": "/Alura_7DaysOfCode/index.html",
+    "main.f76c02d4.js.map": "/Alura_7DaysOfCode/static/js/main.f76c02d4.js.map"
   },
   "entrypoints": [
-    "static/js/main.206677c2.js"
+    "static/js/main.f76c02d4.js"
   ]
 }
