@@ -8,7 +8,6 @@ function App() {
         <div class="first-page">
             <TopBar />
             <LetterContainerGroup />
-            <br></br>
             <Keyboard />
         </div>
     );
