@@ -1,0 +1,33 @@
+{
+  "name": "01-js_dom-lf",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "./src/index.js",
+  "dependencies": {
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.32.2",
+    "gh-pages": "^5.0.0",
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
