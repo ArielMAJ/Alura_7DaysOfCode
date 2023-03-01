@@ -2,6 +2,7 @@
   "name": "01-js_dom-lf",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://ariel.artadevs.tech/Alura_7DaysOfCode/",
   "keywords": [],
   "main": "./src/index.js",
   "dependencies": {
