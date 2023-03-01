@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/Alura_7DaysOfCode/static/js/main.bd17effa.js",
+    "main.js": "/Alura_7DaysOfCode/static/js/main.a78c0f97.js",
     "static/media/backspace.svg": "/Alura_7DaysOfCode/static/media/backspace.76bd3b90817c1b7431139a75e7a6cf43.svg",
     "index.html": "/Alura_7DaysOfCode/index.html",
-    "main.bd17effa.js.map": "/Alura_7DaysOfCode/static/js/main.bd17effa.js.map"
+    "main.a78c0f97.js.map": "/Alura_7DaysOfCode/static/js/main.a78c0f97.js.map"
   },
   "entrypoints": [
-    "static/js/main.bd17effa.js"
+    "static/js/main.a78c0f97.js"
   ]
 }
