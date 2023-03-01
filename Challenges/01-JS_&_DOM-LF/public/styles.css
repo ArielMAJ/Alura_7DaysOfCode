@@ -61,15 +61,10 @@ body::-webkit-scrollbar {
     padding: 10px;
 }
 
-.letter-button:hover {
-    background-color: #585858;
-    border-color: #818384;
-}
-
 .letter-button:active {
     transform: scale(0.97);
     box-shadow: 0 0 10px 1px rgb(88, 88, 88, 0.5);
-    background-color: #818384;
+    background-color: #a1a3a4;
     z-index: -1;
 }
 
@@ -114,5 +109,12 @@ body::-webkit-scrollbar {
     }
     .logo {
         font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .letter-button:hover {
+        background-color: #585858;
+        border-color: #818384;
     }
 }
