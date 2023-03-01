@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter");
+
+body {
+    background-color: #14161c;
+    padding: 0;
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.box {
+    display: inline-block;
+    border: 1px solid #585858;
+    background-color: #14161c;
+    width: 45px;
+    height: 45px;
+    margin: 0 2px;
+}
+
+.row {
+    margin: 3px 0;
+    height: 47px;
+}
+
+.first-page {
+    margin: 0;
+    display: inline-block;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.letter-container {
+    display: inline-block;
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+}
+
+.letter-button {
+    background-color: #818384;
+    align-items: center;
+    display: inline-grid;
+    height: 47px;
+    width: 32px;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 1px;
+}
+
+.keyboard {
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 3vh;
+}
+
+.top-bar {
+    display: inline-block;
+    height: 50px;
+    width: 100vw;
+    border-bottom: 1px solid #585858;
+}
+
+.logo {
+    background-color: #f9ff00;
+    color: #2f2d2d;
+
+    position: absolute;
+    top: 8px;
+    left: 40px;
+
+    align-items: center;
+    display: inline-grid;
+    height: 35px;
+    width: 35px;
+    font-family: inter;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+}
