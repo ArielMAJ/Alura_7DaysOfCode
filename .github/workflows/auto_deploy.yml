@@ -13,6 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - run: cd ./Challenges/01-JS_&_DOM-LF/;
     - uses: actions/setup-node@v3
       with:
         node-version: 18.x
@@ -20,7 +21,6 @@ jobs:
         
     - name: Install pkgs and build.
       run: |
-        cd ./Challenges/01-JS_&_DOM-LF/;
         ls;
         npm ci;
         npm run build --if-present;
