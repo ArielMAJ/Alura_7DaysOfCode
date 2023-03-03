@@ -1,5 +1,5 @@
 import React from "react";
-import backspace_svg from "../../img/backspace.svg";
+import backspace_svg from "../../assets/imgs/backspace.svg";
 
 function BackspaceButton() {
     return (
