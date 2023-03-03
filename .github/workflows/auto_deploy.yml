@@ -4,8 +4,8 @@ on:
   push:
     branches: [ "main" ]
     paths: 
-      - "./Challenges/01-JS_&_DOM-LF/**"
-      - "./.github/workflows/auto_deploy.yml"
+      - "Challenges/01-JS_&_DOM-LF/**"
+      - ".github/workflows/auto_deploy.yml"
     
 jobs:
   build:
