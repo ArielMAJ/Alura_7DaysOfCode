@@ -33,6 +33,6 @@ jobs:
     - name: Deploy app to GH pages.
       run: |
         cd ./Challenges/01-JS_\&_DOM-LF/;
-        git config user.email "ariel.maj@hotmail.com";
-        git config user.name "ArielMAJ";
+        git config --global user.email "ariel.maj@hotmail.com";
+        git config --global user.name "ArielMAJ";
         npm run deploy;
