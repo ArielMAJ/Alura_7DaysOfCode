@@ -1,8 +1,5 @@
 name: Test & deploy React App
 
-env:
-  NAME: 'AutoDeploy'
-  
 on:
   push:
     branches: [ "main" ]
@@ -36,6 +33,6 @@ jobs:
     - name: Deploy app to GH pages.
       run: |
         cd ./Challenges/01-JS_\&_DOM-LF/;
-        git config user.email $EMAIL;
-        git config user.name $NAME;
+        git config user.email "ariel.maj@hotmail.com";
+        git config user.name "ArielMAJ";
         npm run deploy;
