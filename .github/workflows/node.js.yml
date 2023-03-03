@@ -1,0 +1,31 @@
+name: Test & deploy React App
+
+on:
+  push:
+    branches: [ "main" ]
+    paths: 
+      - "./Challenges/01-JS_&_DOM-LF/**"
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 18.x
+        cache: 'npm'
+        
+    - name: Install pkgs and build.
+      run: |
+        cd ./Challenges/01-JS_&_DOM-LF/;
+        ls;
+        npm ci;
+        npm run build --if-present;
+    
+    - name: Run tests.
+      run: npm run test
+    
+    - name: Deploy app to GH pages.
+      run: npm run deploy

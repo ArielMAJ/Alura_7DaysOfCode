@@ -8,19 +8,21 @@
   "dependencies": {
     "react": "16.11.0",
     "react-dom": "16.11.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "seedrandom": "^3.0.5"
   },
   "devDependencies": {
     "eslint": "^8.34.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-react": "^7.32.2",
     "gh-pages": "^5.0.0",
+    "jest": "^27.5.1",
     "typescript": "3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "jest",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
