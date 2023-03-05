@@ -1,0 +1,43 @@
+name: Test & deploy React App
+
+on:
+    push:
+        branches: ["main"]
+        paths:
+            - "Challenges/01-JS_&_DOM-LF/**"
+            - ".github/workflows/auto_deploy.yml"
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v3
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: 18.x
+                  cache: "npm"
+                  cache-dependency-path: ./Challenges/01-JS_\&_DOM-LF/package-lock.json
+
+            - name: Install pkgs and build.
+              run: |
+                  cd ./Challenges/01-JS_\&_DOM-LF/;
+                  npm ci;
+                  npm run build --if-present;
+
+            - name: Run tests.
+              run: |
+                  cd ./Challenges/01-JS_\&_DOM-LF/;
+                  npm run test
+
+            - name: Deploy app to GH pages.
+              run: |
+                  git config --global user.name $user_name
+                  git config --global user.email $user_email
+                  git config remote.origin.url 'https://${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}@github.com/${{ github.repository }}.git'
+                  cd ./Challenges/01-JS_\&_DOM-LF/;
+
+                  npm run deploy
+              env:
+                  user_name: "ArielMAJ"
+                  user_email: "ariel.maj@hotmail.comm"
