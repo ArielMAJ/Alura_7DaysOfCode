@@ -97,18 +97,18 @@ body::-webkit-scrollbar {
 
 .backspace {
     margin: auto;
-    width: 1.1rem;
+    width: 3.2vh;
 }
+
 @media screen and (max-width: 992px) {
     .letter-button {
-        font-size: 2.5rem;
+        font-size: 2.5vh;
     }
 
     .backspace {
-        width: 2.5rem;
     }
     .logo {
-        font-size: 2.5rem;
+        font-size: 2.5vmax;
     }
 }
 
